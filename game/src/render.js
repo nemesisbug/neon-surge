@@ -415,7 +415,7 @@ export function createRenderer(canvas) {
       text(ctx, 'OUTRUN THE VOID  •  CHAIN THE COMBO  •  SURVIVE THE SURGE', FIELD.width / 2, 312, 19, PALETTE.text, 'center', 600);
       panel(ctx, FIELD.width / 2 - 330, 360, 660, 132);
       text(ctx, 'WASD / ARROWS — fly      MOUSE — aim      HOLD CLICK — fire', FIELD.width / 2, 392, 18, PALETTE.text, 'center', 600);
-      text(ctx, 'SHIFT / SPACE / RIGHT-CLICK — dash      P — pause      M — mute', FIELD.width / 2, 424, 18, PALETTE.text, 'center', 600);
+      text(ctx, 'SHIFT / RIGHT-CLICK — dash      P — pause      M — mute', FIELD.width / 2, 424, 18, PALETTE.text, 'center', 600);
       text(ctx, 'Grab cores to raise your combo. Dash through danger. Don\'t get touched.', FIELD.width / 2, 462, 16, PALETTE.muted, 'center', 500);
       text(ctx, best > 0 ? `BEST ${best}   •   CLICK OR PRESS SPACE TO START` : 'CLICK OR PRESS SPACE TO START', FIELD.width / 2, 540, 20, PALETTE.player);
     } else if (screen === SCREEN_PAUSED) {
